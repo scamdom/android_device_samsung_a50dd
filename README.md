@@ -10,7 +10,7 @@ $ mkdir fox; cd fox
 $ repo init --depth=1 -u https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0
 
 # Clone a50dd repo
-$ git clone https://github.com/yukosky/android_device_samsung_a50dd -b fox-9.0 device/samsung/a50dd
+$ git clone https://github.com/KGFOS/android_device_samsung_a50dd.git -b 9 device/samsung/a50dd
 $ mv device/samsung/a50dd/build_ofox.sh . && chmod +x build_ofox.sh
 
 # Sync
